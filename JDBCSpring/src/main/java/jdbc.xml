@@ -15,7 +15,6 @@
     <bean id="jdbcTemplate" class="org.springframework.jdbc.core.JdbcTemplate">  
           <property name="dataSource" ref="ds"></property>  
     </bean>  
-  
     <bean id="edao" class="springjdbc.demo.JDBCSpring.EmployeeDao">  
           <property name="jdbcTemplate" ref="jdbcTemplate"></property>  
     </bean>  
